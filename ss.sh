@@ -561,7 +561,7 @@ install_dependencies(){
         echo -e "[${green}Info${plain}] Checking the EPEL repository complete..."
 
         yum_depends=(
-            unzip gzip openssl openssl-devel gcc python python-devel python-setuptools pcre pcre-devel libtool libevent
+            unzip gzip openssl openssl-devel gcc python3 python3-devel python3-setuptools pcre pcre-devel libtool libevent
             autoconf automake make curl curl-devel zlib-devel perl perl-devel cpio expat-devel gettext-devel
             libev-devel c-ares-devel git qrencode
         )
